@@ -93,7 +93,7 @@ class HomeScreen extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  Get.toNamed(RouteName.playGameScreen);
+                  Get.toNamed(RouteName.gameScreen);
                 },
                 child: Container(
                   padding:

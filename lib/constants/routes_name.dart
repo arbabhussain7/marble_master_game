@@ -7,5 +7,5 @@ class RouteName {
   static const String settingScreen = '/SettingScreen';
   static const String collectionScreen = '/CollectionScreen';
   static const String navBarScreen = '/NavBarScreen';
-  static const String playGameScreen = '/PlayGameScreen';
+  static const String gameScreen = '/GameScreen';
 }

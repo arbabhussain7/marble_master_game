@@ -6,7 +6,6 @@ import 'package:marble_master/constants/assets.dart';
 import 'package:marble_master/constants/colors.dart';
 import 'package:marble_master/constants/styles.dart';
 import 'package:marble_master/controllers/settings_controller.dart';
-import 'package:marble_master/widgets/custom_dialog_box.dart';
 import 'package:marble_master/widgets/custom_reward_box.dart';
 
 class PlayGameScreen extends StatelessWidget {
@@ -44,7 +43,7 @@ class PlayGameScreen extends StatelessWidget {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            Get.dialog(CustomDialogBox());
+                            // Get.dialog(CustomDialogBox());
                           },
                           child: Container(
                             padding: EdgeInsets.symmetric(

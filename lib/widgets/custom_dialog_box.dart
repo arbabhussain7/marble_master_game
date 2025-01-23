@@ -10,8 +10,12 @@ import 'package:marble_master/controllers/settings_controller.dart';
 class CustomDialogBox extends StatelessWidget {
   CustomDialogBox({
     super.key,
+    required this.onResume,
+    required this.onRestart,
   });
 
+  final VoidCallback onResume;
+  final VoidCallback onRestart;
   final SettingsController controller = Get.put(SettingsController());
 
   @override

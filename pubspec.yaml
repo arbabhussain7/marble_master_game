@@ -39,6 +39,7 @@ dependencies:
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.0.17
   google_fonts: ^6.2.1
+  flame: ^1.23.0
 
 dev_dependencies:
   flutter_test:
